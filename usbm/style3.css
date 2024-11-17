@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient( rgba(28, 22, 22, 0.7) ,rgba(13, 10, 10, 0.7)),url("pic.jpg");
+    background-color:#717a7d;
+     height:550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.se{
+    color: yellow;
+    text-align: center;
+    background: transparent;
+    font-size: xx-large;
+       }
+       .o{
+    text-align: center;
+    color: rgb(193, 240, 3);
+    font-size: larger;
+    width:300px;
+    height:300px;
+    padding:60px;
+    border:3px double rgb(46, 19, 226);
+    border-radius:20px;
+    position: absolute;
+    
+      margin-left: 370px;
+      margin-right: 10px;
+    backdrop-filter:blur(13px) brightness(200%);
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    
+    }
+    input[type="email"], input[type="password"]{
+    border-radius:8px;
+    border:1px solid white;
+    color:rgb(164, 11, 11);
+    background:transparent;
+    }
+    input[type="email"]:focus, input[type="password"]:focus{
+    background:#0a070740;
+    box-shadow:none;
+    
+    border:1px solid white;
+    }
+    input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color:white;
+    height: 45px;
+    }
+    input[type="submit"]{
+    width:100%;
+    height: 35px;
+    width:95px ;
+    border-radius:15px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
+    }
+        

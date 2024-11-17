@@ -1,0 +1,81 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-sizing: border-box;
+
+}
+.container
+{
+width: 100%;
+height:100vh;
+background-color: #e1a8e7;
+align-items: center;
+display: flex;
+justify-content:center ;
+}
+.system{
+background:#15e1c6 ;
+background-image:linear-gradient( rgba(53, 46, 46, 0.7) ,rgba(15, 13, 13, 0.7)),url("dora.jpg");
+padding: 20px;
+border-radius:20%;
+border-style: groove;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+
+}
+.system form input{
+border: 0%;
+outline: 0%;
+width:50px ;
+height:50px ;
+border-radius:10px ;
+border-style: dotted;
+border-color: #15e1c6;
+box-shadow: -8px 15px rgba(255,255,255,0.1),5px -8px 15px rgba (0,0,0,0.2);
+background: transparent;
+font-size: 20px;
+color:#0ff554;
+cursor: pointer;
+margin: 10px;
+background-color: rgba(255,255,255,0.1),5px -8px 15px rgba (0,0,0,0.2);;
+
+}
+.we{
+display:flex;
+justify-content: flex-end;
+margin: 10px 0;
+
+}
+.we input {
+text-align: right;
+flex:1;
+font-size:45px ;
+box-shadow: none ;
+
+
+}
+form input.equal{
+width :131px;
+background-color: rgb(11, 15, 21);
+color: #eb3f3f;
+
+}
+form input.operator{
+
+    color:#eb3f3f;
+    background-color: #0f0109;
+}
+form input.r{
+    color: rgb(17, 4, 5);
+    background-color: #c1a1bf;
+    border-color: #eb3f3f;
+    border-style: groove;
+}
+form input.y{
+    background-color: rgb(5, 6, 6);
+    color: #eb3f3f;
+}

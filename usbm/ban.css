@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient( rgba(28, 22, 22, 0.7) ,rgba(13, 10, 10, 0.7)),url("pic.jpg");
+    background-color:#717a7d;
+     height:553px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    }
+      td{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color: whitesmoke;
+     }
+     
+       
+        h2{
+    color: rgb(210, 192, 29);
+    
+    
+        }
+        p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(28, 57, 79);
+    
+        }
+       
